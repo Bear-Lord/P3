@@ -1,35 +1,35 @@
 @font-face {
 font-family: 'montserrat';
-src: url("../fonts/Montserrat-Regular.otf") format("otf");
+src: url("../fonts/Montserrat-Medium.otf") format("truetype");
 }
 @font-face {
 font-family: 'devonshire';
-src: url("../fonts/Devonshire-Regular.ttf") format("ttf");
+src: url("../fonts/Devonshire-Regular.ttf") format("truetype");
 }
 @font-face {
 font-family: 'segoe';
-src: url("../fonts/SEGOEUI.ttf") format("ttf");
+src: url("../fonts/segoe.woff") format("woff");
 }
 @font-face {
-font-family: 'croissant';
-src: url("croisant.ttf") format("ttf");
+font-family: 'croisant';
+src: url("../fonts/croissantone-regular.ttf") format("truetype");
 }
 @font-face {
 font-family: 'charissil';
-src: url("../fonts/CharisSILR.ttf") format("ttf");
+src: url("../fonts/charissil-b.ttf") format("truetype");
 }
 @font-face {
 font-family: 'dancing-script';
-src: url("../fonts/DancingScript-Regular.otf") format("otf");
+src: url("../fonts/DancingScript-Regular.otf") format("truetype");
 }
 @font-face {
 font-family: 'kaushan';
-src: url("../fonts/KaushanScript-Regular.otf") format("otf");
+src: url("../fonts/KaushanScript-Regular.otf") format("truetype");
 }
 
 body
 {
-	font-family:'kaushan','Arial',sans-serif;
+	font-family: "montserrat", 'Arial',sans-serif;
 	font-size: 22px;
 	margin: 0;
 }
@@ -39,6 +39,29 @@ header,footer,.button
 	background-color:#579C87;
 	color:#F2C74A;
 
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+footer a
+{
+	color:#F2C74A;
+	text-decoration:none;
+}
+
+.footer-left,.footer-right
+{
+	width:50%;
+	padding: 0 20px;
+}
+
+.footer-right
+{
+	text-align:right;
 }
 
 .logo
@@ -65,29 +88,6 @@ h1, .button{
 	margin-right:auto;
 }
 
-footer{
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-}
-
-footer a
-{
-	color:#F2C74A;
-	text-decoration:none;
-}
-
-.footer-left,.footer-right
-{
-	width:50%;
-	padding: 0 20px;
-}
-
-.footer-right
-{
-	text-align:right;
-}
-
 .button
 {
 	border-radius:10px;
@@ -102,72 +102,4 @@ footer a
 .padding-20
 {
 	padding:20px;
-}
-
-.menu-margin-left{
-	margin-left: 40px;
-}
-
-.contener-menu{
-	justify-content: center;
-	margin-bottom: 40px;
-}
-
-.menu
-{
-	border-radius: 5px;
-	background-color: grey;
-	width:25%;
-	height: 400px;
-	box-shadow: 2px 2px 10px black;
-	text-align: center;
-}
-
-.menu h3{
-	margin-top: 150px;
-}
-
-#menu1
-{
- 	background-color:#FCDFDB;
- 	color:#3C1218;	
-}
-
-#menu2
-{
-	background-color:#FFF5FE;
- 	color:#E3B589;
-}
-
-#menu2 h3{
-	background: -webkit-linear-gradient(10deg, #E5AA70, #AA7FF7);
-    background-clip: border-box;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-#menu3
-{
-	background-color:#F9F9F9;
- 	color:#0887FB;
-}
-
-#menu3 h3{
-	background: -webkit-linear-gradient(10deg, #E7EDF8, #0C89FB);
-    background-clip: border-box;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-#menu4
-{
-	background-color:#FDFFFD;
- 	color:#72BF56;
-}
-
-#menu4 h3{
-	background: -webkit-linear-gradient(10deg, #7DB77C, #C7FF8F);
-    background-clip: border-box;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }

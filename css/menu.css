@@ -1,0 +1,86 @@
+section{
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h3{
+	font-size: 2em;
+	margin-top: 10px;
+}
+
+h4{
+	font-size: 30px;
+}
+
+
+h5{
+	font-size:1.15em;
+	margin: 0;
+}
+
+.menu{
+	padding: 20px 40px;
+	width:50%;
+	margin:auto;
+}
+
+#menu1{
+	background-color:#FCDFDB;
+ 	color:#3C1218;
+ 	font-family: "segoe";
+}
+
+#menu1 h3, #menu1 h4{
+	font-family:"devonshire";
+}
+
+#menu1 .fa-music{
+	background: -webkit-linear-gradient(10deg, #F15861, #F78F6A);
+    background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 80px;
+	margin-top: 40px;
+}
+
+#menu1 h4 .fa-music{
+	font-size: 35px;
+	margin-right: 10px;
+}
+
+.menu-title{
+	margin-top: 40px;
+}
+
+.menu-title-part{
+	width:33%;
+}
+
+.menu-title-part img{
+	width: 100%;
+}
+
+.menu-title-trace-right{
+	margin-top: 7px;
+}
+
+.menu-part{
+	margin: 15px 0;
+	font-size: 18px;
+}
+
+.menu-left-part{
+	text-align: left;
+	width:90%;
+}
+
+.menu-right-part{
+	text-align: right;
+	width: 10%;
+	font-weight: bold;
+}
