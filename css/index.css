@@ -12,6 +12,7 @@
 	border-radius: 5px;
 	background-color: grey;
 	width:25%;
+	max-width:300px;
 	height: 400px;
 	box-shadow: 2px 2px 10px black;
 	text-align: center;
@@ -49,12 +50,8 @@
 	margin-top: 10px;
 }
 
-#menu1 .fa-music{
-	background: -webkit-linear-gradient(10deg, #F15861, #F78F6A);
-    background-clip: border-box;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-size:45px;
+#menu1 .note-img{
+	height:45px;
 }
 
 #menu2
@@ -102,3 +99,53 @@
 .contener-menu a{
 	display: contents;
 }
+
+@media screen and (max-width:1200px)
+{
+	.menu{
+		width:33%;
+	}
+
+	#menu2 h3{
+		font-size:20px;
+	}
+}
+
+@media screen and (max-width:720px)
+{
+	.menu{
+		width:40%;
+	}
+	.menu-margin-left {
+	    margin-left: 20px;
+	}
+	.contener-menu{
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width:450px)
+{
+	.menu{
+		width:48%;
+	}
+	.menu-margin-left {
+	    margin-left: 10px;
+	}
+	.contener-menu{
+		margin-bottom: 10px;
+	}
+  #menu
+  {
+    
+  }
+  header
+  {
+   
+  }
+  footer
+  {
+
+  }
+  
+
+  }
