@@ -11,8 +11,8 @@ font-family: 'segoe';
 src: url("../fonts/segoe.woff") format("woff");
 }
 @font-face {
-font-family: 'croisant';
-src: url("../fonts/croissantone-regular.ttf") format("truetype");
+font-family: 'croissant';
+src: url("../fonts/CroissantOne-Regular.ttf") format("truetype");
 }
 @font-face {
 font-family: 'charissil';
@@ -88,11 +88,41 @@ h1, .button{
 	margin-right:auto;
 }
 
-.button
-{
-	border-radius:10px;
-    width:30%;
-    margin:20px auto;
+.wiggle{
+	animation: wiggle 1500ms ease-in-out infinite;
+}
+.wiggle:hover {
+  animation: none;
+}
+
+@keyframes wiggle {
+  	0% {
+    	transform: rotate(3deg);
+    }
+  	10% {
+   		transform: rotate(-2.5deg);
+   	}
+ 	20% {
+    	transform: rotate(2deg);
+    }
+  	30% {
+   	 	transform: rotate(-1.5deg);
+   	}
+ 	40% {
+   	 	transform: rotate(1deg);
+   	}
+  	50% {
+   	 	transform: rotate(-0.5deg);
+   	}
+   	60% {
+    	transform: rotate(0deg);
+	}
+	90% {
+    	transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(3deg);
+	}
 }
 
 .margin-bottom-end{

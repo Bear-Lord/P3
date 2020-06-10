@@ -32,7 +32,10 @@ h5{
 #menu1{
 	background-color:#FCDFDB;
  	color:#3C1218;
- 	font-family: "segoe";
+}
+
+#menu1, #menu3, #menu4{
+	font-family: "segoe";
 }
 
 #menu1 h3, #menu1 h4{
@@ -53,10 +56,11 @@ h5{
 {
 	background-color:#FFF5FE;
  	color:#E3B589;
+ 	font-family: "charrisil";
 }
 
 #menu2 h3{
-	font-family: "charissil";
+	font-family: "croissant";
 	background: -webkit-linear-gradient(10deg, #E5AA70, #AA7FF7);
     background-clip: border-box;
 	-webkit-background-clip: text;
@@ -113,12 +117,12 @@ h5{
 	font-size: 3em;
 }
 #menu3 h5 {
-font-family:"dancing-script";
+
 background: -webkit-linear-gradient(10deg, #000000, #858787);
     background-clip: border-box;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;	
-	font-size: 30px;
+	font-size: 22px;
 }
 
 
@@ -172,14 +176,47 @@ background: -webkit-linear-gradient(10deg, #000000, #858787);
 	font-weight: bold;
 }
 
-@media screen and (max-width:1200px)
+h5 .underline.brown{
+	background: linear-gradient(to top, #3c1218 5%, transparent 2%) no-repeat left bottom/0 50%;
+}
+
+h5 .underline.orange{
+	background: linear-gradient(to top, #E3B589 5%, transparent 2%) no-repeat left bottom/0 50%;
+}
+
+h5 .underline.black{
+	background: linear-gradient(to top, black 5%, transparent 2%) no-repeat left bottom/0 50%;
+}
+
+h5 .underline.purple{
+	background: linear-gradient(to top, #A56799 5%, transparent 2%) no-repeat left bottom/0 50%;
+}
+
+h5 .underline.indigo{
+	background: linear-gradient(to top, #6E4CCC 5%, transparent 2%) no-repeat left bottom/0 50%;
+}
+
+h5 .underline{
+  	transition: background-size 700ms ease;
+}
+h5 .underline:hover {
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width:1300px)
 {
 	.menu{
 		width:75%;
 	}
 
 	#menu3 h5{
-		font-size:25px;
+		font-size:18px;
+		margin-top: 3px;
+	}
+
+	#menu4 h5{
+		font-size:20px;
+		margin-top: 5px;
 	}
 }
 
@@ -217,7 +254,8 @@ background: -webkit-linear-gradient(10deg, #000000, #858787);
 	}
 
 	#menu3 h5{
-		font-size:20px;
+		font-size:15px;
+		margin-top:6px;
 	}
 
 	#menu3 .menu-title-part-side img{
@@ -225,6 +263,7 @@ background: -webkit-linear-gradient(10deg, #000000, #858787);
 	}
 
 	#menu4 h5{
-		font-size:22px;
+		font-size:18px;
+		margin-top:8px;
 	}
 }

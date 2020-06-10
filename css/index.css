@@ -27,13 +27,22 @@
 }
 
 #menu2 h2{
-	font-family: "croisant";
+	font-family: "charrisil";
 }
 
 
 .menu-align-center{
 	margin-top: 150px;
+	transform: scale(1);
+    transition-property: transform, opacity;
+    transition-duration: 400ms;
+    opacity: 1;
 }
+
+.menu-align-center:hover {
+        transform: scale(1.15);
+        opacity: 0.5;
+    }
 
 #menu1
 {
@@ -61,7 +70,7 @@
 }
 
 #menu2 h3{
-	font-family: "charissil";
+	font-family: "croissant";
 	background: -webkit-linear-gradient(10deg, #E5AA70, #AA7FF7);
     background-clip: border-box;
 	-webkit-background-clip: text;
@@ -96,8 +105,40 @@
 	-webkit-text-fill-color: transparent;
 }
 
+
+.button {
+	border-radius:10px;
+    width:30%;
+    margin:20px auto;
+}
+
 .contener-menu a{
 	display: contents;
+}
+
+.point1, .point2, .point3{
+	animation: opacitypoint 1300ms ease infinite;
+}
+
+.point1{
+    animation-delay: 300ms;
+}
+
+.point2{
+    animation-delay: 400ms;
+}
+
+.point3{
+    animation-delay: 500ms;
+}
+
+@keyframes opacitypoint {
+ 	0% {
+    	opacity: 0;
+	}
+  	100% {
+    	opacity: 1;
+	}
 }
 
 @media screen and (max-width:1200px)
@@ -122,7 +163,13 @@
 	.contener-menu{
 		margin-bottom: 20px;
 	}
+
+	.button	{
+   		width:50%;
+	}
+
 }
+
 @media screen and (max-width:450px)
 {
 	.menu{
@@ -134,18 +181,7 @@
 	.contener-menu{
 		margin-bottom: 10px;
 	}
-  #menu
-  {
-    
-  }
-  header
-  {
-   
-  }
-  footer
-  {
-
-  }
-  
-
-  }
+	.button	{
+   		width:70%;
+	}
+}
