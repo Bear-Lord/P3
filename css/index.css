@@ -105,6 +105,16 @@
 	-webkit-text-fill-color: transparent;
 }
 
+.mentions-legales{
+	font-family:"devonshire";
+	background-color: #A56799;
+	color:#ffff00;
+	width:auto;
+	margin:auto;
+	text-align:center;
+	padding-bottom:150px;
+}
+
 
 .button {
 	border-radius:10px;
