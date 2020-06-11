@@ -89,15 +89,17 @@ h1, .button{
 }
 
 .wiggle{
-	animation: wiggle 1500ms ease-in-out infinite;
+	animation: none;
+	display: inline-block;
 }
 .wiggle:hover {
-  animation: none;
+	animation: wiggle 1500ms ease-in-out infinite;
+  
 }
 
 @keyframes wiggle {
   	0% {
-    	transform: rotate(3deg);
+    	transform: rotate(7deg);
     }
   	10% {
    		transform: rotate(-2.5deg);
@@ -106,13 +108,13 @@ h1, .button{
     	transform: rotate(2deg);
     }
   	30% {
-   	 	transform: rotate(-1.5deg);
+   	 	transform: rotate(-2.5deg);
    	}
  	40% {
    	 	transform: rotate(1deg);
    	}
   	50% {
-   	 	transform: rotate(-0.5deg);
+   	 	transform: rotate(-1.5deg);
    	}
    	60% {
     	transform: rotate(0deg);
@@ -121,7 +123,7 @@ h1, .button{
     	transform: rotate(0deg);
 	}
 	100%{
-		transform: rotate(3deg);
+		transform: rotate(7deg);
 	}
 }
 
