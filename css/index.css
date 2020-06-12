@@ -183,13 +183,17 @@
 @media screen and (max-width:450px)
 {
 	.menu{
-		width:48%;
+		width:100%;
+		flex-direction: column;
 	}
 	.menu-margin-left {
 	    margin-left: 10px;
 	}
 	.contener-menu{
 		margin-bottom: 10px;
+		flex-direction: column;
+
+		
 	}
 	.button	{
    		width:70%;
