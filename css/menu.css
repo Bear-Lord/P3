@@ -274,10 +274,6 @@ h5 .underline:hover {
 		font-size:18px;
 		margin-top:8px;
 	}
-
-	footer{
-		font-size:14px;
-	}
 }
 
 @media screen and (max-width:420px)

@@ -143,3 +143,10 @@ h1, .button{
 {
 	padding:20px;
 }
+
+@media screen and (max-width:720px)
+{
+	footer{
+		font-size:14px;
+	}
+}
