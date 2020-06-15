@@ -241,6 +241,10 @@ h5 .underline:hover {
 		font-size:20px;
 	}
 
+	#menu1 .menu-left-part{
+		width: 84%;
+	}
+
 	#menu1 .menu-title-part-side img{
 		margin-top:2px;
 	}
@@ -270,5 +274,16 @@ h5 .underline:hover {
 	#menu4 h5{
 		font-size:18px;
 		margin-top:8px;
+	}
+
+	footer{
+		font-size:14px;
+	}
+}
+
+@media screen and (max-width:420px)
+{
+	.logo{
+		height:45px;
 	}
 }
