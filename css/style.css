@@ -74,6 +74,10 @@ footer a
 	margin:20px;
 }
 
+h1{
+	margin-top: 0;
+}
+
 h1, .button{
 	text-align:center;
 }
