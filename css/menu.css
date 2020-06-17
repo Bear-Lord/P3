@@ -1,4 +1,4 @@
-section{
+main{
 	text-align: center;
 	margin-bottom: 120px;
 }
@@ -55,13 +55,13 @@ h5{
 #menu2
 {
 	background-color:#FFF5FE;
- 	color:#E3B589;
+ 	color:#C77412;
  	font-family: "charrisil";
 }
 
 #menu2 h3{
 	font-family: "croissant";
-	background: -webkit-linear-gradient(10deg, #E5AA70, #AA7FF7);
+	background: -webkit-linear-gradient(10deg, #DF871E, #8F5AFF);
     background-clip: border-box;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -110,18 +110,13 @@ h5{
 
 #menu3 h3 {
 	font-family:"dancing-script";
-	background: -webkit-linear-gradient(10deg, #0431DF, #97C9F9);
+	background: -webkit-linear-gradient(10deg, #0229DD, #389FFC);
     background-clip: border-box;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 3em;
 }
 #menu3 h5 {
-
-background: -webkit-linear-gradient(10deg, #000000, #858787);
-    background-clip: border-box;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	
 	font-size: 22px;
 }
 
@@ -138,6 +133,7 @@ background: -webkit-linear-gradient(10deg, #000000, #858787);
 
 .menu-title{
 	margin-top: 50px;
+	margin-bottom: 40px;
 }
 
 .menu-title-part{
@@ -189,7 +185,7 @@ h5 .underline.orange{
 }
 
 h5 .underline.black{
-	background: linear-gradient(to top, black 5%, transparent 2%) no-repeat left bottom/0 50%;
+	background: linear-gradient(to top, #000000 5%, transparent 2%) no-repeat left bottom/0 50%;
 }
 
 h5 .underline.purple{

@@ -66,12 +66,12 @@
 #menu2
 {
 	background-color:#FFF5FE;
- 	color:#E3B589;
+ 	color:#C77412;
 }
 
 #menu2 h3{
 	font-family: "croissant";
-	background: -webkit-linear-gradient(10deg, #E5AA70, #AA7FF7);
+	background: -webkit-linear-gradient(10deg, #DF871E, #8F5AFF);
     background-clip: border-box;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -86,7 +86,7 @@
 
 #menu3 h3{
 	font-family:"dancing-script";
-	background: -webkit-linear-gradient(10deg, #0431DF, #97C9F9);
+	background: -webkit-linear-gradient(10deg, #1D3FDF, #0889FB);
     background-clip: border-box;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -100,7 +100,7 @@
 
 #menu4 h3{
 	font-family:"kaushan";
-	background: -webkit-linear-gradient(10deg, #56A847, #D2FEA8);
+	background: -webkit-linear-gradient(10deg, #3E923A, #BEFF7F);
     background-clip: border-box;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
